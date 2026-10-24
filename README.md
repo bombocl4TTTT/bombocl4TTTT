@@ -2,14 +2,11 @@
 
 <img src="assets/header.png" width="100%" alt="Reydian Delagao" />
 
-<br/>
+<br/><br/>
 
-<p align="left">
-  <a href="https://www.reydian.tech" target="_blank"><img src="https://img.shields.io/badge/Portfolio-ff735c?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
-  <a href="https://www.linkedin.com/in/reydian-delagao-092723410" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/bombocl4TTTT"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="mailto:reydian04@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-</p>
+<a href="https://github.com/bombocl4TTTT">
+  <img src="https://ghchart.rshah.org/40c463/bombocl4TTTT" alt="Reydian's GitHub Contributions Calendar" width="100%" />
+</a>
 
 </div>
 
