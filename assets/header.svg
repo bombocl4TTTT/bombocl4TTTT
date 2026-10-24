@@ -24,7 +24,7 @@
   </text>
   
   <text x="32" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#8b949e">
-    Full-Stack Developer &amp; Systems Builder · Building resilient web platforms, Linux tooling, and AI workflows.
+    Full-Stack Developer &amp; AI Engineer · Crafting modern web applications &amp; intelligent automation systems.
   </text>
 
   <!-- Hairline Divider -->
@@ -34,18 +34,18 @@
   <!-- Col 1: Location -->
   <g transform="translate(32, 134)">
     <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">LOCATION</text>
-    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Bacolod, Philippines (UTC+8)</text>
+    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Negros Occidental, Philippines</text>
   </g>
 
   <!-- Col 2: Core Focus -->
   <g transform="translate(320, 134)">
     <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">CORE FOCUS</text>
-    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Systems Architecture · Full-Stack · AI Workflows</text>
+    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Full-Stack Web · AI Engineering · Automations</text>
   </g>
 
-  <!-- Col 3: Primary Languages -->
+  <!-- Col 3: Primary Stack -->
   <g transform="translate(640, 134)">
     <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">PRIMARY STACK</text>
-    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">TypeScript · Rust · Python · Go</text>
+    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Next.js · TypeScript · Python · Supabase</text>
   </g>
 </svg>
