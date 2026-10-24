@@ -2,12 +2,6 @@
 
 <img src="assets/header.png" width="100%" alt="Reydian Delagao" />
 
-<br/><br/>
-
-<a href="https://github.com/bombocl4TTTT">
-  <img src="https://ghchart.rshah.org/40c463/bombocl4TTTT" alt="Reydian's GitHub Contributions Calendar" width="100%" />
-</a>
-
 </div>
 
 ---
