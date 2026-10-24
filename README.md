@@ -1,13 +1,17 @@
 <div align="left">
 
-<img src="assets/header.svg" width="100%" alt="Reydian Delagao" />
+<img src="assets/header.png" width="100%" alt="Reydian Delagao" />
 
 <br/>
 
-**Reydian Delagao** (Red) · Full-Stack Developer &amp; Systems Builder based in Bacolod, Philippines.  
-Focused on engineering resilient web applications, low-level Linux systems, and AI automation pipelines.
+> **Reydian Delagao** (Red) · Full-Stack Developer &amp; Systems Builder based in Bacolod, Philippines.  
+> Focusing on low-level Linux systems, resilient distributed architectures, and autonomous AI automation pipelines.
 
-[Website](https://www.reydian.tech) &nbsp;•&nbsp; [Email](mailto:reydian04@gmail.com) &nbsp;•&nbsp; [GitHub](https://github.com/bombocl4TTTT)
+<p align="left">
+  <a href="https://www.reydian.tech" target="_blank"><img src="https://img.shields.io/badge/Portfolio-reydian.tech-ff735c?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:reydian04@gmail.com"><img src="https://img.shields.io/badge/Email-reydian04%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/bombocl4TTTT"><img src="https://img.shields.io/badge/GitHub-bombocl4TTTT-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</p>
 
 </div>
 
