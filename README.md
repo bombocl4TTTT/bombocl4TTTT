@@ -4,9 +4,6 @@
 
 <br/>
 
-> **Reydian Delagao** (Red) · Full-Stack Developer &amp; Systems Builder based in Bacolod, Philippines.  
-> Focusing on low-level Linux systems, resilient distributed architectures, and autonomous AI automation pipelines.
-
 <p align="left">
   <a href="https://www.reydian.tech" target="_blank"><img src="https://img.shields.io/badge/Portfolio-reydian.tech-ff735c?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
   <a href="mailto:reydian04@gmail.com"><img src="https://img.shields.io/badge/Email-reydian04%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>

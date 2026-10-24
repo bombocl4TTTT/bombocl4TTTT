@@ -1,84 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="100%" height="auto">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 170" width="100%" height="auto">
   <defs>
-    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0a0e17" />
-      <stop offset="60%" stop-color="#0e1422" />
-      <stop offset="100%" stop-color="#141c2e" />
-    </linearGradient>
-
-    <radialGradient id="coralGlow" cx="85%" cy="30%" r="60%">
-      <stop offset="0%" stop-color="#ff735c" stop-opacity="0.18" />
-      <stop offset="50%" stop-color="#ff735c" stop-opacity="0.04" />
-      <stop offset="100%" stop-color="#ff735c" stop-opacity="0" />
-    </radialGradient>
-
-    <pattern id="dotGrid" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.75" fill="#3b4861" opacity="0.45" />
-    </pattern>
-
-    <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff735c" stop-opacity="0.7" />
-      <stop offset="30%" stop-color="#2a364f" />
-      <stop offset="100%" stop-color="#1c2538" />
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#0b0e14" />
     </linearGradient>
   </defs>
 
-  <!-- Background Card -->
-  <rect x="1" y="1" width="878" height="198" rx="14" fill="url(#cardGrad)" stroke="url(#borderGrad)" stroke-width="1.2" />
+  <!-- Container Box -->
+  <rect x="1" y="1" width="878" height="168" rx="8" fill="url(#cardBg)" stroke="#21262d" stroke-width="1" />
 
-  <!-- Ambient Glow -->
-  <rect x="2" y="2" width="876" height="196" rx="13" fill="url(#coralGlow)" />
-
-  <!-- Dot Matrix Texture on Right -->
-  <rect x="480" y="2" width="396" height="196" rx="13" fill="url(#dotGrid)" />
-
-  <!-- Top accent indicator -->
-  <path d="M 16 1 L 180 1" stroke="#ff735c" stroke-width="2.5" stroke-linecap="round" />
-
-  <!-- Status / Eyebrow Pill -->
-  <g transform="translate(36, 30)">
-    <rect x="0" y="0" width="280" height="24" rx="12" fill="#141c2c" stroke="#25334c" stroke-width="1" />
-    <circle cx="12" cy="12" r="3.5" fill="#ff735c" />
-    <text x="24" y="15.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.2" fill="#93a4c3">FULL-STACK &amp; SYSTEMS BUILDER</text>
-  </g>
-
-  <!-- Headline: Reydian Delagao (Red) -->
-  <text x="36" y="92" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Display', Roboto, sans-serif" font-size="36" font-weight="700" letter-spacing="-0.8" fill="#f8fafc">
-    Reydian Delagao <tspan font-size="24" font-weight="500" fill="#ff735c">(Red)</tspan>
+  <!-- Top Row: Monospace Breadcrumb & Domain -->
+  <text x="32" y="32" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="500" fill="#7d8590">
+    bombocl4TTTT / profile
+  </text>
+  
+  <text x="848" y="32" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#ff735c">
+    reydian.tech ↗
   </text>
 
-  <!-- Subheadline -->
-  <text x="36" y="124" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'SF Pro Text', Roboto, sans-serif" font-size="14.5" font-weight="400" fill="#94a3b8">
-    Engineering resilient web applications, Linux kernel systems, &amp; AI automation pipelines.
+  <!-- Middle: Name & Title -->
+  <text x="32" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="-0.3" fill="#f0f6fc">
+    Reydian Delagao <tspan font-size="17" font-weight="400" fill="#8b949e">(Red)</tspan>
+  </text>
+  
+  <text x="32" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#8b949e">
+    Full-Stack Developer &amp; Systems Builder · Building resilient web platforms, Linux tooling, and AI workflows.
   </text>
 
-  <!-- Bottom Badges / Metadata Row -->
-  <g transform="translate(36, 150)">
-    <!-- Location Pill -->
-    <rect x="0" y="0" width="138" height="24" rx="6" fill="#0f1624" stroke="#222f46" stroke-width="1" />
-    <text x="10" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#7d8da6">📍 Bacolod, PH (UTC+8)</text>
+  <!-- Hairline Divider -->
+  <line x1="32" y1="118" x2="848" y2="118" stroke="#21262d" stroke-width="1" />
 
-    <!-- Stack Pill -->
-    <rect x="146" y="0" width="176" height="24" rx="6" fill="#0f1624" stroke="#222f46" stroke-width="1" />
-    <text x="156" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#7d8da6">⚡ TypeScript · Rust · Python</text>
-
-    <!-- Status Pill -->
-    <rect x="330" y="0" width="170" height="24" rx="6" fill="#0f1624" stroke="#222f46" stroke-width="1" />
-    <circle cx="342" cy="12" r="3" fill="#10b981" />
-    <text x="352" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" font-weight="500" fill="#7d8da6">Available for Projects</text>
+  <!-- Bottom Spec Columns -->
+  <!-- Col 1: Location -->
+  <g transform="translate(32, 134)">
+    <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">LOCATION</text>
+    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Bacolod, Philippines (UTC+8)</text>
   </g>
 
-  <!-- Right Decorative Monogram Card -->
-  <g transform="translate(770, 48)">
-    <rect x="0" y="0" width="72" height="72" rx="18" fill="#121828" stroke="#2d3b56" stroke-width="1.2" />
-    <rect x="6" y="6" width="60" height="60" rx="14" fill="#161f33" stroke="#ff735c" stroke-opacity="0.4" stroke-width="1" />
-    <text x="36" y="44" text-anchor="middle" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="24" font-weight="700" fill="#ff735c">&lt;/&gt;</text>
+  <!-- Col 2: Core Focus -->
+  <g transform="translate(320, 134)">
+    <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">CORE FOCUS</text>
+    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Systems Architecture · Full-Stack · AI Workflows</text>
   </g>
 
-  <!-- Right Website Link Indicator -->
-  <g transform="translate(842, 166)">
-    <text x="0" y="0" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#ff735c">
-      reydian.tech ↗
-    </text>
+  <!-- Col 3: Primary Languages -->
+  <g transform="translate(640, 134)">
+    <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">PRIMARY STACK</text>
+    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">TypeScript · Rust · Python · Go</text>
   </g>
 </svg>
