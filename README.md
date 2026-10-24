@@ -1,53 +1,72 @@
 <div align="left">
 
-<img src="assets/header.svg" width="100%" alt="Reydian Delagao - Full-Stack &amp; Systems Engineer" />
+<img src="assets/header.svg" width="100%" alt="Reydian Delagao" />
 
 <br/>
 
-**Reydian Delagao** (Red) · Systems & Full-Stack Engineer based in Bacolod, Philippines.  
-Building reliable web platforms, low-level tooling, and typed agent execution runtimes.
+**Reydian Delagao** (Red) · Full-Stack Developer &amp; Systems Builder based in Bacolod, Philippines.  
+Focused on engineering resilient web applications, low-level Linux systems, and AI automation pipelines.
 
-[Website](https://www.reydian.tech) &nbsp;•&nbsp; [Kasya-Pa (Live)](https://kasya-pa.vercel.app) &nbsp;•&nbsp; [Projects](https://github.com/bombocl4TTTT?tab=repositories) &nbsp;•&nbsp; [Email](mailto:reydian04@gmail.com)
+[Website](https://www.reydian.tech) &nbsp;•&nbsp; [Email](mailto:reydian04@gmail.com) &nbsp;•&nbsp; [GitHub](https://github.com/bombocl4TTTT)
 
 </div>
 
 ---
 
-### What I'm Building
+### Stack &amp; Tools
 
-I'm drawn to software that remains reliable when things get chaotic—from tracing kernel sockets in Linux and enforcing idempotency in financial ledgers, to establishing deterministic boundaries for AI workflows.
-
-- **[Kasya-Pa](https://kasya-pa.vercel.app)** — Community-first public transit route finder and interactive map for Bacolod City commuters. [Live App ↗](https://kasya-pa.vercel.app)
-- **[RedX](https://github.com/bombocl4TTTT/redx)** — Experimental programming language for typed agent workflows written in Rust. Features a custom lexer, parser, type checker, intermediate representation, and virtual machine to make side-effects, tools, and approval checkpoints explicit.
-- **[bwtrack](https://github.com/bombocl4TTTT/bwtrack)** — Linux per-application network bandwidth recorder powered by eBPF kernel probes, SQLite historical persistence, and a terminal UI (Ratatui).
-- **Backend Architecture Demos** — Focused implementations of distributed systems patterns:
-  - **Hookbase**: High-reliability webhook dispatcher with exponential backoff, cryptographic signatures, and dead-letter queues.
-  - **Ledgerly**: Double-entry bookkeeping engine exploring concurrency control, balance locks, and idempotent transaction mutations.
-  - **CompanySearch**: Hybrid knowledge retrieval engine evaluating lexical BM25 token matching alongside dense vector similarity.
-  - **Workspaces**: Multi-tenant RBAC permissions, invitation lifecycle, seat limits, and audit trails.
+<p align="left">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" alt="Rust" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" alt="Bash" />
+  <br/>
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite" />
+  <br/>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" alt="Google Cloud" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <br/>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
+</p>
 
 ---
 
-### Technical Focus
+### What I Do
 
-| Domain | Core Technologies & Patterns |
-| :--- | :--- |
-| **Languages** | Rust, TypeScript, JavaScript, Python, Go, SQL, Bash |
-| **Systems & Kernel** | Linux, eBPF (Aya), SQLite, Terminal UIs (Ratatui), Concurrency |
-| **Backend & Reliability** | Node.js, Next.js, PostgreSQL, Redis, Idempotency, Webhook Pipelines, Event Queues |
-| **Frontend & GIS** | React, Next.js, Tailwind CSS, MapLibre GL, Leaflet, Responsive UI |
-| **AI & Workflow Runtimes** | Deterministic agent boundaries, Multi-agent orchestration, Tool evaluation |
+- **Full-Stack Development** — Crafting responsive, accessible web applications with TypeScript, React, and Next.js, backed by scalable APIs and modern database architectures.
+- **Systems &amp; Kernel Tooling** — Exploring low-level Linux internals, eBPF telemetry, and building performant command-line utilities in Rust.
+- **Distributed Services &amp; Reliability** — Designing backend systems around idempotent workflows, reliable event queues, and fault-tolerant webhook pipelines.
+- **AI Automations &amp; Multi-Agents** — Implementing autonomous agent pipelines, orchestration flows, and deterministic tool execution environments.
 
 ---
 
-### Engineering Principles
+### Connect
 
-- **Observability Over Guesswork** — Systems should expose their internal state clearly, whether via eBPF kernel probes or structured audit trails.
-- **Explicit Failure Boundaries** — In agentic systems, side effects, tool invocations, and approvals belong in typed, verifiable contracts rather than implicit prompt logic.
-- **Solving Concrete Problems** — From local public transit routing to dependable webhook dispatching, code should deliver tangible utility.
+Feel free to reach out for collaborations, discussions on systems and AI, or just to chat about tech:
+
+- **Portfolio:** [reydian.tech](https://www.reydian.tech)
+- **Email:** [reydian04@gmail.com](mailto:reydian04@gmail.com)
+- **GitHub:** [@bombocl4TTTT](https://github.com/bombocl4TTTT)
 
 ---
 
 <div align="left">
-  <sub>Reydian A. Delagao &nbsp;•&nbsp; <a href="https://www.reydian.tech">reydian.tech</a> &nbsp;•&nbsp; <a href="mailto:reydian04@gmail.com">reydian04@gmail.com</a></sub>
+  <sub>Reydian A. Delagao &nbsp;•&nbsp; <a href="https://www.reydian.tech">reydian.tech</a></sub>
 </div>
