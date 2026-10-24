@@ -1,51 +1,63 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 170" width="100%" height="auto">
-  <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0d1117" />
-      <stop offset="100%" stop-color="#0b0e14" />
-    </linearGradient>
-  </defs>
-
-  <!-- Container Box -->
-  <rect x="1" y="1" width="878" height="168" rx="8" fill="url(#cardBg)" stroke="#21262d" stroke-width="1" />
-
-  <!-- Top Row: Monospace Breadcrumb & Domain -->
-  <text x="32" y="32" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="11.5" font-weight="500" fill="#7d8590">
-    bombocl4TTTT / profile
-  </text>
-  
-  <text x="848" y="32" text-anchor="end" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#ff735c">
-    reydian.tech ↗
-  </text>
-
-  <!-- Middle: Name & Title -->
-  <text x="32" y="72" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="26" font-weight="600" letter-spacing="-0.3" fill="#f0f6fc">
-    Reydian Delagao <tspan font-size="17" font-weight="400" fill="#8b949e">(Red)</tspan>
-  </text>
-  
-  <text x="32" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="400" fill="#8b949e">
-    Full-Stack Developer &amp; AI Engineer · Crafting modern web applications &amp; intelligent automation systems.
-  </text>
-
-  <!-- Hairline Divider -->
-  <line x1="32" y1="118" x2="848" y2="118" stroke="#21262d" stroke-width="1" />
-
-  <!-- Bottom Spec Columns -->
-  <!-- Col 1: Location -->
-  <g transform="translate(32, 134)">
-    <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">LOCATION</text>
-    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Negros Occidental, Philippines</text>
-  </g>
-
-  <!-- Col 2: Core Focus -->
-  <g transform="translate(320, 134)">
-    <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">CORE FOCUS</text>
-    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Full-Stack Web · AI Engineering · Automations</text>
-  </g>
-
-  <!-- Col 3: Primary Stack -->
-  <g transform="translate(640, 134)">
-    <text x="0" y="0" font-family="ui-monospace, 'SF Mono', Menlo, Monaco, Consolas, monospace" font-size="9.5" font-weight="600" letter-spacing="1" fill="#6e7681">PRIMARY STACK</text>
-    <text x="0" y="18" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" font-weight="500" fill="#c9d1d9">Next.js · TypeScript · Python · Supabase</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 616" width="100%" height="auto">
+  <rect x="1" y="1" width="1018" height="614" rx="14" fill="#151a20" stroke="#222933" stroke-width="1.2" />
+  <g font-family="ui-monospace, 'Fira Code', 'Cascadia Code', 'JetBrains Mono', 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="13" xml:space="preserve">
+    <text x="36" y="46.0" fill="#bfc7ce">                ::.....,.,::=;</text>
+    <text x="456" y="46.0"><tspan fill="#9dcbf2">red@cachyos</tspan><tspan fill="#3c434f"> ----------------------------------------------------</tspan></text>
+    <text x="36" y="64.6" fill="#bfc7ce">             :::;,.........,,,.+*-:;--</text>
+    <text x="456" y="64.6"><tspan fill="#e2944e">. OS: </tspan><tspan fill="#3c434f">.............................. </tspan><tspan fill="#9dcbf2">CachyOS Linux, Android, Web</tspan></text>
+    <text x="36" y="83.2" fill="#bfc7ce">           :,=-..................::,,+@</text>
+    <text x="456" y="83.2"><tspan fill="#e2944e">. Uptime: </tspan><tspan fill="#3c434f">.................................... </tspan><tspan fill="#9dcbf2">2+ years building</tspan></text>
+    <text x="36" y="101.8" fill="#bfc7ce">           ;:...,,................,,,..::</text>
+    <text x="456" y="101.8"><tspan fill="#e2944e">. Host: </tspan><tspan fill="#3c434f">.................................. </tspan><tspan fill="#9dcbf2">Negros Occidental, PH</tspan></text>
+    <text x="36" y="120.4" fill="#bfc7ce">          ;....,:..................,.,:,.,:</text>
+    <text x="456" y="120.4"><tspan fill="#e2944e">. Kernel: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Full-Stack Dev &amp; AI Engineer</tspan></text>
+    <text x="36" y="139.0" fill="#bfc7ce">        @:,....,...::::-+==;.;=;...........:</text>
+    <text x="456" y="139.0"><tspan fill="#e2944e">. Shell: </tspan><tspan fill="#3c434f">...................................... </tspan><tspan fill="#9dcbf2">zsh 5.9 (x86_64)</tspan></text>
+    <text x="36" y="157.6" fill="#bfc7ce">        :.=;...:,;.;:,+++#*;;###*-..........:</text>
+    <text x="456" y="157.6"><tspan fill="#e2944e">. IDE: </tspan><tspan fill="#3c434f">......................................... </tspan><tspan fill="#9dcbf2">VS Code, Cursor</tspan></text>
+    <text x="36" y="176.2" fill="#bfc7ce">       -..;..,::-#;;;:*+#%+-=#####=......,..:</text>
+    <text x="456" y="176.2"><tspan fill="#3c434f">.</tspan></text>
+    <text x="36" y="194.8" fill="#bfc7ce">       :......:;:*+-.,=-*#*-+#%###*;........:</text>
+    <text x="456" y="194.8"><tspan fill="#e2944e">. Languages.Programming: </tspan><tspan fill="#3c434f">........ </tspan><tspan fill="#9dcbf2">TypeScript, JavaScript, Python</tspan></text>
+    <text x="36" y="213.4" fill="#bfc7ce">       #......-,,,;=+=:-+@@#+*=;;;;;-......,</text>
+    <text x="456" y="213.4"><tspan fill="#e2944e">. Languages.Markup: </tspan><tspan fill="#3c434f">.................. </tspan><tspan fill="#9dcbf2">HTML5, CSS3, Tailwind CSS</tspan></text>
+    <text x="36" y="232.0" fill="#bfc7ce">        :....+-:.:-=--++=#@+::=++-;::;.....=</text>
+    <text x="456" y="232.0"><tspan fill="#e2944e">. Frameworks.Web: </tspan><tspan fill="#3c434f">................ </tspan><tspan fill="#9dcbf2">React, Next.js, Node.js, Vite</tspan></text>
+    <text x="36" y="250.6" fill="#bfc7ce">        ;...%@%%%#%###**%@#++=+***#%*#:...:</text>
+    <text x="456" y="250.6"><tspan fill="#e2944e">. Frameworks.Motion: </tspan><tspan fill="#3c434f">................... </tspan><tspan fill="#9dcbf2">Framer Motion, Three.js</tspan></text>
+    <text x="36" y="269.2" fill="#bfc7ce">        #..-@%*-,,;;-=+*%%+==---:.,=*#-..:</text>
+    <text x="456" y="269.2"><tspan fill="#e2944e">. Databases: </tspan><tspan fill="#3c434f">..................... </tspan><tspan fill="#9dcbf2">PostgreSQL, MongoDB, Supabase</tspan></text>
+    <text x="36" y="287.8" fill="#bfc7ce">        @-.=@%#%%##%%###%#*+**#####**#=.,-</text>
+    <text x="456" y="287.8"><tspan fill="#e2944e">. AI.Automation: </tspan><tspan fill="#3c434f">................... </tspan><tspan fill="#9dcbf2">n8n, Zapier, Ollama, Agents</tspan></text>
+    <text x="36" y="306.4" fill="#bfc7ce">       *+##+@%%@@@@@@##@@@#+=%@@@@@%##++@%%</text>
+    <text x="456" y="306.4"><tspan fill="#e2944e">. Tools.DevOps: </tspan><tspan fill="#3c434f">................ </tspan><tspan fill="#9dcbf2">Docker, Git, Vercel, Cloudflare</tspan></text>
+    <text x="36" y="325.0" fill="#bfc7ce">       **@@=%%@@@@@@%*+=##=+**@@@@@@%#-*@##</text>
+    <text x="456" y="325.0"><tspan fill="#3c434f">.</tspan></text>
+    <text x="36" y="343.6" fill="#bfc7ce">        ###=+#%%@%%%@@##%%#***#@@@@##+;*%+</text>
+    <text x="456" y="343.6"><tspan fill="#3c434f">- </tspan><tspan fill="#bfc7ce">Contact</tspan><tspan fill="#3c434f"> ------------------------------------------------------</tspan></text>
+    <text x="36" y="362.2" fill="#bfc7ce">         #%*=*#%%%**#**+***+++++###*+=-#%*</text>
+    <text x="456" y="362.2"><tspan fill="#e2944e">. Portfolio: </tspan><tspan fill="#3c434f">.............................. </tspan><tspan fill="#9dcbf2">https://reydian.tech</tspan></text>
+    <text x="36" y="380.8" fill="#bfc7ce">            %###%%*=--=+**=-;;-+##*++=;*=</text>
+    <text x="456" y="380.8"><tspan fill="#e2944e">. Email.Personal: </tspan><tspan fill="#3c434f">.......................... </tspan><tspan fill="#9dcbf2">reydian04@gmail.com</tspan></text>
+    <text x="36" y="399.4" fill="#bfc7ce">            ;#####%%%%%#**#%%###**++=;</text>
+    <text x="456" y="399.4"><tspan fill="#e2944e">. GitHub: </tspan><tspan fill="#3c434f">......................................... </tspan><tspan fill="#9dcbf2">bombocl4TTTT</tspan></text>
+    <text x="36" y="418.0" fill="#bfc7ce">             ;+**#@@%@@%##%@@%%#*+=-:</text>
+    <text x="456" y="418.0"><tspan fill="#e2944e">. LinkedIn: </tspan><tspan fill="#3c434f">.................................... </tspan><tspan fill="#9dcbf2">reydian-delagao</tspan></text>
+    <text x="36" y="436.6" fill="#bfc7ce">              +;;=*%%@@@@@@%%**+=-:</text>
+    <text x="456" y="436.6"><tspan fill="#3c434f">.</tspan></text>
+    <text x="36" y="455.2" fill="#bfc7ce">            ::%+;,,:;;=****=-;:::;-</text>
+    <text x="456" y="455.2"><tspan fill="#3c434f">- </tspan><tspan fill="#bfc7ce">Status &amp; Focus</tspan><tspan fill="#3c434f"> -----------------------------------------------</tspan></text>
+    <text x="36" y="473.8" fill="#bfc7ce">         ::...*%*+===-;:,,,:;;-++*-</text>
+    <text x="456" y="473.8"><tspan fill="#e2944e">. Repos: </tspan><tspan fill="#3c434f">............................. </tspan><tspan fill="#9dcbf2">27 Repositories on GitHub</tspan></text>
+    <text x="36" y="492.4" fill="#bfc7ce">        :.....*##*+++#@@@@%*+++*%#..:</text>
+    <text x="456" y="492.4"><tspan fill="#e2944e">. Primary: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Next.js, TypeScript, Python</tspan></text>
+    <text x="36" y="511.0" fill="#bfc7ce">   #+:::.....*@-%%#*+++**+===+*%*....:</text>
+    <text x="456" y="511.0"><tspan fill="#e2944e">. Focus: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Scalable Web &amp; AI Automations</tspan></text>
+    <text x="36" y="529.6" fill="#bfc7ce">,...........#@*.*@@####****++*#=......+</text>
+    <text x="456" y="529.6"><tspan fill="#e2944e">. Location: </tspan><tspan fill="#3c434f">....................... </tspan><tspan fill="#9dcbf2">Bacolod, Philippines (UTC+8)</tspan></text>
+    <text x="36" y="548.2" fill="#bfc7ce">..........:%@*...-@%%#%%#**+*#;.......,:</text>
+    <text x="456" y="548.2"><tspan fill="#e2944e">. Availability: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Open for Opportunities</tspan></text>
+    <text x="36" y="566.8" fill="#bfc7ce">....-@@@@@%-........,-++++**+;...........::</text>
+    <text x="456" y="566.8"><tspan fill="#3c434f">.</tspan></text>
   </g>
 </svg>
