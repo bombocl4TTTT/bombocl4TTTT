@@ -2,6 +2,7 @@
 import html
 import subprocess
 from pathlib import Path
+from PIL import Image
 
 ROOT = Path("/home/red/Projects/github-profile")
 ASCII_PATH = Path("/home/red/Downloads/face-clean-52.txt")
@@ -58,26 +59,57 @@ right_entries = [
 
 assert len(right_entries) == 29, f"Expected 29 right entries, got {len(right_entries)}"
 
-# Color palette matching user's reference image
-C_BG = "#151a20"
-C_BORDER = "#222933"
+# macOS Terminal palette
+C_BODY_BG = "#151a20"
+C_HEADER_BG = "#1c232c"
+C_BORDER = "#283241"
+C_DIVIDER = "#232b38"
 C_ASCII = "#bfc7ce"
 C_ORANGE = "#e2944e"
 C_BLUE = "#9dcbf2"
 C_DOTS = "#3c434f"
 C_HEADER = "#bfc7ce"
+C_TITLE_TXT = "#8694a6"
 
 WIDTH = 1020
-HEIGHT = 616
-START_X_LEFT = 36
-START_X_RIGHT = 456
-START_Y = 46
+TITLE_BAR_H = 38
+START_Y = TITLE_BAR_H + 34
 LINE_HEIGHT = 18.6
 FONT_SIZE = 13
+HEIGHT = int(START_Y + 28 * LINE_HEIGHT + 34)
+
+START_X_LEFT = 36
+START_X_RIGHT = 456
 
 svg_parts = [
     f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {WIDTH} {HEIGHT}" width="100%" height="auto">',
-    f'  <rect x="1" y="1" width="{WIDTH-2}" height="{HEIGHT-2}" rx="14" fill="{C_BG}" stroke="{C_BORDER}" stroke-width="1.2" />',
+    '  <defs>',
+    f'    <clipPath id="windowClip">',
+    f'      <rect x="1" y="1" width="{WIDTH-2}" height="{HEIGHT-2}" rx="14" />',
+    f'    </clipPath>',
+    '  </defs>',
+    '',
+    '  <!-- Main Window Body -->',
+    f'  <rect x="1" y="1" width="{WIDTH-2}" height="{HEIGHT-2}" rx="14" fill="{C_BODY_BG}" stroke="{C_BORDER}" stroke-width="1.2" />',
+    '',
+    '  <!-- Window Header / Title Bar (clipped to rounded corners) -->',
+    '  <g clip-path="url(#windowClip)">',
+    f'    <rect x="1" y="1" width="{WIDTH-2}" height="{TITLE_BAR_H}" fill="{C_HEADER_BG}" />',
+    f'    <line x1="1" y1="{TITLE_BAR_H}" x2="{WIDTH-1}" y2="{TITLE_BAR_H}" stroke="{C_DIVIDER}" stroke-width="1" />',
+    '  </g>',
+    '',
+    '  <!-- Apple Window Control Buttons (Traffic Lights) -->',
+    '  <!-- Close -->',
+    '  <circle cx="22" cy="19" r="5.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.8" />',
+    '  <!-- Minimize -->',
+    '  <circle cx="40" cy="19" r="5.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.8" />',
+    '  <!-- Zoom / Expand -->',
+    '  <circle cx="58" cy="19" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.8" />',
+    '',
+    '  <!-- Window Title (macOS style: red — -zsh — 100×29) -->',
+    f'  <text x="{WIDTH/2}" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, \'SF Pro Text\', \'Segoe UI\', sans-serif" font-size="11.5" font-weight="500" fill="{C_TITLE_TXT}">red — -zsh — 102×29</text>',
+    '',
+    '  <!-- Terminal Content (Monospace) -->',
     f'  <g font-family="ui-monospace, \'Fira Code\', \'Cascadia Code\', \'JetBrains Mono\', \'DejaVu Sans Mono\', Menlo, Consolas, monospace" font-size="{FONT_SIZE}" xml:space="preserve">',
 ]
 
@@ -133,7 +165,13 @@ with open(out_svg, "w", encoding="utf-8") as f:
 
 print(f"Wrote {out_svg}")
 
-# Render to 2x Retina PNG
-cmd = ["rsvg-convert", "-w", str(WIDTH * 2), str(out_svg), "-o", str(out_png)]
+# Render to 2x Retina PNG via rsvg-convert
+raw_png = "/tmp/raw_terminal.png"
+cmd = ["rsvg-convert", "-w", str(WIDTH * 2), str(out_svg), "-o", raw_png]
 subprocess.run(cmd, check=True)
-print(f"Rendered {out_png}")
+
+# Quantize RGBA with Pillow to keep it fast & lightweight (~120KB)
+im = Image.open(raw_png)
+im_q = im.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
+im_q.save(out_png, optimize=True)
+print(f"Rendered and optimized {out_png} ({out_png.stat().st_size:,} bytes)")

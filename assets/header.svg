@@ -1,63 +1,89 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 616" width="100%" height="auto">
-  <rect x="1" y="1" width="1018" height="614" rx="14" fill="#151a20" stroke="#222933" stroke-width="1.2" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1020 626" width="100%" height="auto">
+  <defs>
+    <clipPath id="windowClip">
+      <rect x="1" y="1" width="1018" height="624" rx="14" />
+    </clipPath>
+  </defs>
+
+  <!-- Main Window Body -->
+  <rect x="1" y="1" width="1018" height="624" rx="14" fill="#151a20" stroke="#283241" stroke-width="1.2" />
+
+  <!-- Window Header / Title Bar (clipped to rounded corners) -->
+  <g clip-path="url(#windowClip)">
+    <rect x="1" y="1" width="1018" height="38" fill="#1c232c" />
+    <line x1="1" y1="38" x2="1019" y2="38" stroke="#232b38" stroke-width="1" />
+  </g>
+
+  <!-- Apple Window Control Buttons (Traffic Lights) -->
+  <!-- Close -->
+  <circle cx="22" cy="19" r="5.5" fill="#ff5f56" stroke="#e0443e" stroke-width="0.8" />
+  <!-- Minimize -->
+  <circle cx="40" cy="19" r="5.5" fill="#ffbd2e" stroke="#dea123" stroke-width="0.8" />
+  <!-- Zoom / Expand -->
+  <circle cx="58" cy="19" r="5.5" fill="#27c93f" stroke="#1aab29" stroke-width="0.8" />
+
+  <!-- Window Title (macOS style: red — -zsh — 100×29) -->
+  <text x="510.0" y="23" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', sans-serif" font-size="11.5" font-weight="500" fill="#8694a6">red — -zsh — 102×29</text>
+
+  <!-- Terminal Content (Monospace) -->
   <g font-family="ui-monospace, 'Fira Code', 'Cascadia Code', 'JetBrains Mono', 'DejaVu Sans Mono', Menlo, Consolas, monospace" font-size="13" xml:space="preserve">
-    <text x="36" y="46.0" fill="#bfc7ce">                ::.....,.,::=;</text>
-    <text x="456" y="46.0"><tspan fill="#9dcbf2">red@cachyos</tspan><tspan fill="#3c434f"> ----------------------------------------------------</tspan></text>
-    <text x="36" y="64.6" fill="#bfc7ce">             :::;,.........,,,.+*-:;--</text>
-    <text x="456" y="64.6"><tspan fill="#e2944e">. OS: </tspan><tspan fill="#3c434f">.............................. </tspan><tspan fill="#9dcbf2">CachyOS Linux, Android, Web</tspan></text>
-    <text x="36" y="83.2" fill="#bfc7ce">           :,=-..................::,,+@</text>
-    <text x="456" y="83.2"><tspan fill="#e2944e">. Uptime: </tspan><tspan fill="#3c434f">.................................... </tspan><tspan fill="#9dcbf2">2+ years building</tspan></text>
-    <text x="36" y="101.8" fill="#bfc7ce">           ;:...,,................,,,..::</text>
-    <text x="456" y="101.8"><tspan fill="#e2944e">. Host: </tspan><tspan fill="#3c434f">.................................. </tspan><tspan fill="#9dcbf2">Negros Occidental, PH</tspan></text>
-    <text x="36" y="120.4" fill="#bfc7ce">          ;....,:..................,.,:,.,:</text>
-    <text x="456" y="120.4"><tspan fill="#e2944e">. Kernel: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Full-Stack Dev &amp; AI Engineer</tspan></text>
-    <text x="36" y="139.0" fill="#bfc7ce">        @:,....,...::::-+==;.;=;...........:</text>
-    <text x="456" y="139.0"><tspan fill="#e2944e">. Shell: </tspan><tspan fill="#3c434f">...................................... </tspan><tspan fill="#9dcbf2">zsh 5.9 (x86_64)</tspan></text>
-    <text x="36" y="157.6" fill="#bfc7ce">        :.=;...:,;.;:,+++#*;;###*-..........:</text>
-    <text x="456" y="157.6"><tspan fill="#e2944e">. IDE: </tspan><tspan fill="#3c434f">......................................... </tspan><tspan fill="#9dcbf2">VS Code, Cursor</tspan></text>
-    <text x="36" y="176.2" fill="#bfc7ce">       -..;..,::-#;;;:*+#%+-=#####=......,..:</text>
-    <text x="456" y="176.2"><tspan fill="#3c434f">.</tspan></text>
-    <text x="36" y="194.8" fill="#bfc7ce">       :......:;:*+-.,=-*#*-+#%###*;........:</text>
-    <text x="456" y="194.8"><tspan fill="#e2944e">. Languages.Programming: </tspan><tspan fill="#3c434f">........ </tspan><tspan fill="#9dcbf2">TypeScript, JavaScript, Python</tspan></text>
-    <text x="36" y="213.4" fill="#bfc7ce">       #......-,,,;=+=:-+@@#+*=;;;;;-......,</text>
-    <text x="456" y="213.4"><tspan fill="#e2944e">. Languages.Markup: </tspan><tspan fill="#3c434f">.................. </tspan><tspan fill="#9dcbf2">HTML5, CSS3, Tailwind CSS</tspan></text>
-    <text x="36" y="232.0" fill="#bfc7ce">        :....+-:.:-=--++=#@+::=++-;::;.....=</text>
-    <text x="456" y="232.0"><tspan fill="#e2944e">. Frameworks.Web: </tspan><tspan fill="#3c434f">................ </tspan><tspan fill="#9dcbf2">React, Next.js, Node.js, Vite</tspan></text>
-    <text x="36" y="250.6" fill="#bfc7ce">        ;...%@%%%#%###**%@#++=+***#%*#:...:</text>
-    <text x="456" y="250.6"><tspan fill="#e2944e">. Frameworks.Motion: </tspan><tspan fill="#3c434f">................... </tspan><tspan fill="#9dcbf2">Framer Motion, Three.js</tspan></text>
-    <text x="36" y="269.2" fill="#bfc7ce">        #..-@%*-,,;;-=+*%%+==---:.,=*#-..:</text>
-    <text x="456" y="269.2"><tspan fill="#e2944e">. Databases: </tspan><tspan fill="#3c434f">..................... </tspan><tspan fill="#9dcbf2">PostgreSQL, MongoDB, Supabase</tspan></text>
-    <text x="36" y="287.8" fill="#bfc7ce">        @-.=@%#%%##%%###%#*+**#####**#=.,-</text>
-    <text x="456" y="287.8"><tspan fill="#e2944e">. AI.Automation: </tspan><tspan fill="#3c434f">................... </tspan><tspan fill="#9dcbf2">n8n, Zapier, Ollama, Agents</tspan></text>
-    <text x="36" y="306.4" fill="#bfc7ce">       *+##+@%%@@@@@@##@@@#+=%@@@@@%##++@%%</text>
-    <text x="456" y="306.4"><tspan fill="#e2944e">. Tools.DevOps: </tspan><tspan fill="#3c434f">................ </tspan><tspan fill="#9dcbf2">Docker, Git, Vercel, Cloudflare</tspan></text>
-    <text x="36" y="325.0" fill="#bfc7ce">       **@@=%%@@@@@@%*+=##=+**@@@@@@%#-*@##</text>
-    <text x="456" y="325.0"><tspan fill="#3c434f">.</tspan></text>
-    <text x="36" y="343.6" fill="#bfc7ce">        ###=+#%%@%%%@@##%%#***#@@@@##+;*%+</text>
-    <text x="456" y="343.6"><tspan fill="#3c434f">- </tspan><tspan fill="#bfc7ce">Contact</tspan><tspan fill="#3c434f"> ------------------------------------------------------</tspan></text>
-    <text x="36" y="362.2" fill="#bfc7ce">         #%*=*#%%%**#**+***+++++###*+=-#%*</text>
-    <text x="456" y="362.2"><tspan fill="#e2944e">. Portfolio: </tspan><tspan fill="#3c434f">.............................. </tspan><tspan fill="#9dcbf2">https://reydian.tech</tspan></text>
-    <text x="36" y="380.8" fill="#bfc7ce">            %###%%*=--=+**=-;;-+##*++=;*=</text>
-    <text x="456" y="380.8"><tspan fill="#e2944e">. Email.Personal: </tspan><tspan fill="#3c434f">.......................... </tspan><tspan fill="#9dcbf2">reydian04@gmail.com</tspan></text>
-    <text x="36" y="399.4" fill="#bfc7ce">            ;#####%%%%%#**#%%###**++=;</text>
-    <text x="456" y="399.4"><tspan fill="#e2944e">. GitHub: </tspan><tspan fill="#3c434f">......................................... </tspan><tspan fill="#9dcbf2">bombocl4TTTT</tspan></text>
-    <text x="36" y="418.0" fill="#bfc7ce">             ;+**#@@%@@%##%@@%%#*+=-:</text>
-    <text x="456" y="418.0"><tspan fill="#e2944e">. LinkedIn: </tspan><tspan fill="#3c434f">.................................... </tspan><tspan fill="#9dcbf2">reydian-delagao</tspan></text>
-    <text x="36" y="436.6" fill="#bfc7ce">              +;;=*%%@@@@@@%%**+=-:</text>
-    <text x="456" y="436.6"><tspan fill="#3c434f">.</tspan></text>
-    <text x="36" y="455.2" fill="#bfc7ce">            ::%+;,,:;;=****=-;:::;-</text>
-    <text x="456" y="455.2"><tspan fill="#3c434f">- </tspan><tspan fill="#bfc7ce">Status &amp; Focus</tspan><tspan fill="#3c434f"> -----------------------------------------------</tspan></text>
-    <text x="36" y="473.8" fill="#bfc7ce">         ::...*%*+===-;:,,,:;;-++*-</text>
-    <text x="456" y="473.8"><tspan fill="#e2944e">. Repos: </tspan><tspan fill="#3c434f">............................. </tspan><tspan fill="#9dcbf2">27 Repositories on GitHub</tspan></text>
-    <text x="36" y="492.4" fill="#bfc7ce">        :.....*##*+++#@@@@%*+++*%#..:</text>
-    <text x="456" y="492.4"><tspan fill="#e2944e">. Primary: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Next.js, TypeScript, Python</tspan></text>
-    <text x="36" y="511.0" fill="#bfc7ce">   #+:::.....*@-%%#*+++**+===+*%*....:</text>
-    <text x="456" y="511.0"><tspan fill="#e2944e">. Focus: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Scalable Web &amp; AI Automations</tspan></text>
-    <text x="36" y="529.6" fill="#bfc7ce">,...........#@*.*@@####****++*#=......+</text>
-    <text x="456" y="529.6"><tspan fill="#e2944e">. Location: </tspan><tspan fill="#3c434f">....................... </tspan><tspan fill="#9dcbf2">Bacolod, Philippines (UTC+8)</tspan></text>
-    <text x="36" y="548.2" fill="#bfc7ce">..........:%@*...-@%%#%%#**+*#;.......,:</text>
-    <text x="456" y="548.2"><tspan fill="#e2944e">. Availability: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Open for Opportunities</tspan></text>
-    <text x="36" y="566.8" fill="#bfc7ce">....-@@@@@%-........,-++++**+;...........::</text>
-    <text x="456" y="566.8"><tspan fill="#3c434f">.</tspan></text>
+    <text x="36" y="72.0" fill="#bfc7ce">                ::.....,.,::=;</text>
+    <text x="456" y="72.0"><tspan fill="#9dcbf2">red@cachyos</tspan><tspan fill="#3c434f"> ----------------------------------------------------</tspan></text>
+    <text x="36" y="90.6" fill="#bfc7ce">             :::;,.........,,,.+*-:;--</text>
+    <text x="456" y="90.6"><tspan fill="#e2944e">. OS: </tspan><tspan fill="#3c434f">.............................. </tspan><tspan fill="#9dcbf2">CachyOS Linux, Android, Web</tspan></text>
+    <text x="36" y="109.2" fill="#bfc7ce">           :,=-..................::,,+@</text>
+    <text x="456" y="109.2"><tspan fill="#e2944e">. Uptime: </tspan><tspan fill="#3c434f">.................................... </tspan><tspan fill="#9dcbf2">2+ years building</tspan></text>
+    <text x="36" y="127.8" fill="#bfc7ce">           ;:...,,................,,,..::</text>
+    <text x="456" y="127.8"><tspan fill="#e2944e">. Host: </tspan><tspan fill="#3c434f">.................................. </tspan><tspan fill="#9dcbf2">Negros Occidental, PH</tspan></text>
+    <text x="36" y="146.4" fill="#bfc7ce">          ;....,:..................,.,:,.,:</text>
+    <text x="456" y="146.4"><tspan fill="#e2944e">. Kernel: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Full-Stack Dev &amp; AI Engineer</tspan></text>
+    <text x="36" y="165.0" fill="#bfc7ce">        @:,....,...::::-+==;.;=;...........:</text>
+    <text x="456" y="165.0"><tspan fill="#e2944e">. Shell: </tspan><tspan fill="#3c434f">...................................... </tspan><tspan fill="#9dcbf2">zsh 5.9 (x86_64)</tspan></text>
+    <text x="36" y="183.6" fill="#bfc7ce">        :.=;...:,;.;:,+++#*;;###*-..........:</text>
+    <text x="456" y="183.6"><tspan fill="#e2944e">. IDE: </tspan><tspan fill="#3c434f">......................................... </tspan><tspan fill="#9dcbf2">VS Code, Cursor</tspan></text>
+    <text x="36" y="202.2" fill="#bfc7ce">       -..;..,::-#;;;:*+#%+-=#####=......,..:</text>
+    <text x="456" y="202.2"><tspan fill="#3c434f">.</tspan></text>
+    <text x="36" y="220.8" fill="#bfc7ce">       :......:;:*+-.,=-*#*-+#%###*;........:</text>
+    <text x="456" y="220.8"><tspan fill="#e2944e">. Languages.Programming: </tspan><tspan fill="#3c434f">........ </tspan><tspan fill="#9dcbf2">TypeScript, JavaScript, Python</tspan></text>
+    <text x="36" y="239.4" fill="#bfc7ce">       #......-,,,;=+=:-+@@#+*=;;;;;-......,</text>
+    <text x="456" y="239.4"><tspan fill="#e2944e">. Languages.Markup: </tspan><tspan fill="#3c434f">.................. </tspan><tspan fill="#9dcbf2">HTML5, CSS3, Tailwind CSS</tspan></text>
+    <text x="36" y="258.0" fill="#bfc7ce">        :....+-:.:-=--++=#@+::=++-;::;.....=</text>
+    <text x="456" y="258.0"><tspan fill="#e2944e">. Frameworks.Web: </tspan><tspan fill="#3c434f">................ </tspan><tspan fill="#9dcbf2">React, Next.js, Node.js, Vite</tspan></text>
+    <text x="36" y="276.6" fill="#bfc7ce">        ;...%@%%%#%###**%@#++=+***#%*#:...:</text>
+    <text x="456" y="276.6"><tspan fill="#e2944e">. Frameworks.Motion: </tspan><tspan fill="#3c434f">................... </tspan><tspan fill="#9dcbf2">Framer Motion, Three.js</tspan></text>
+    <text x="36" y="295.2" fill="#bfc7ce">        #..-@%*-,,;;-=+*%%+==---:.,=*#-..:</text>
+    <text x="456" y="295.2"><tspan fill="#e2944e">. Databases: </tspan><tspan fill="#3c434f">..................... </tspan><tspan fill="#9dcbf2">PostgreSQL, MongoDB, Supabase</tspan></text>
+    <text x="36" y="313.8" fill="#bfc7ce">        @-.=@%#%%##%%###%#*+**#####**#=.,-</text>
+    <text x="456" y="313.8"><tspan fill="#e2944e">. AI.Automation: </tspan><tspan fill="#3c434f">................... </tspan><tspan fill="#9dcbf2">n8n, Zapier, Ollama, Agents</tspan></text>
+    <text x="36" y="332.4" fill="#bfc7ce">       *+##+@%%@@@@@@##@@@#+=%@@@@@%##++@%%</text>
+    <text x="456" y="332.4"><tspan fill="#e2944e">. Tools.DevOps: </tspan><tspan fill="#3c434f">................ </tspan><tspan fill="#9dcbf2">Docker, Git, Vercel, Cloudflare</tspan></text>
+    <text x="36" y="351.0" fill="#bfc7ce">       **@@=%%@@@@@@%*+=##=+**@@@@@@%#-*@##</text>
+    <text x="456" y="351.0"><tspan fill="#3c434f">.</tspan></text>
+    <text x="36" y="369.6" fill="#bfc7ce">        ###=+#%%@%%%@@##%%#***#@@@@##+;*%+</text>
+    <text x="456" y="369.6"><tspan fill="#3c434f">- </tspan><tspan fill="#bfc7ce">Contact</tspan><tspan fill="#3c434f"> ------------------------------------------------------</tspan></text>
+    <text x="36" y="388.2" fill="#bfc7ce">         #%*=*#%%%**#**+***+++++###*+=-#%*</text>
+    <text x="456" y="388.2"><tspan fill="#e2944e">. Portfolio: </tspan><tspan fill="#3c434f">.............................. </tspan><tspan fill="#9dcbf2">https://reydian.tech</tspan></text>
+    <text x="36" y="406.8" fill="#bfc7ce">            %###%%*=--=+**=-;;-+##*++=;*=</text>
+    <text x="456" y="406.8"><tspan fill="#e2944e">. Email.Personal: </tspan><tspan fill="#3c434f">.......................... </tspan><tspan fill="#9dcbf2">reydian04@gmail.com</tspan></text>
+    <text x="36" y="425.4" fill="#bfc7ce">            ;#####%%%%%#**#%%###**++=;</text>
+    <text x="456" y="425.4"><tspan fill="#e2944e">. GitHub: </tspan><tspan fill="#3c434f">......................................... </tspan><tspan fill="#9dcbf2">bombocl4TTTT</tspan></text>
+    <text x="36" y="444.0" fill="#bfc7ce">             ;+**#@@%@@%##%@@%%#*+=-:</text>
+    <text x="456" y="444.0"><tspan fill="#e2944e">. LinkedIn: </tspan><tspan fill="#3c434f">.................................... </tspan><tspan fill="#9dcbf2">reydian-delagao</tspan></text>
+    <text x="36" y="462.6" fill="#bfc7ce">              +;;=*%%@@@@@@%%**+=-:</text>
+    <text x="456" y="462.6"><tspan fill="#3c434f">.</tspan></text>
+    <text x="36" y="481.2" fill="#bfc7ce">            ::%+;,,:;;=****=-;:::;-</text>
+    <text x="456" y="481.2"><tspan fill="#3c434f">- </tspan><tspan fill="#bfc7ce">Status &amp; Focus</tspan><tspan fill="#3c434f"> -----------------------------------------------</tspan></text>
+    <text x="36" y="499.8" fill="#bfc7ce">         ::...*%*+===-;:,,,:;;-++*-</text>
+    <text x="456" y="499.8"><tspan fill="#e2944e">. Repos: </tspan><tspan fill="#3c434f">............................. </tspan><tspan fill="#9dcbf2">27 Repositories on GitHub</tspan></text>
+    <text x="36" y="518.4" fill="#bfc7ce">        :.....*##*+++#@@@@%*+++*%#..:</text>
+    <text x="456" y="518.4"><tspan fill="#e2944e">. Primary: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Next.js, TypeScript, Python</tspan></text>
+    <text x="36" y="537.0" fill="#bfc7ce">   #+:::.....*@-%%#*+++**+===+*%*....:</text>
+    <text x="456" y="537.0"><tspan fill="#e2944e">. Focus: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Scalable Web &amp; AI Automations</tspan></text>
+    <text x="36" y="555.6" fill="#bfc7ce">,...........#@*.*@@####****++*#=......+</text>
+    <text x="456" y="555.6"><tspan fill="#e2944e">. Location: </tspan><tspan fill="#3c434f">....................... </tspan><tspan fill="#9dcbf2">Bacolod, Philippines (UTC+8)</tspan></text>
+    <text x="36" y="574.2" fill="#bfc7ce">..........:%@*...-@%%#%%#**+*#;.......,:</text>
+    <text x="456" y="574.2"><tspan fill="#e2944e">. Availability: </tspan><tspan fill="#3c434f">......................... </tspan><tspan fill="#9dcbf2">Open for Opportunities</tspan></text>
+    <text x="36" y="592.8" fill="#bfc7ce">....-@@@@@%-........,-++++**+;...........::</text>
+    <text x="456" y="592.8"><tspan fill="#3c434f">.</tspan></text>
   </g>
 </svg>
