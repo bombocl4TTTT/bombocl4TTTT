@@ -1,25 +1,58 @@
-# hey, i'm Red.
+<div align="center">
 
-I build web apps, small tools, and experiments that sometimes become bigger projects.
-Mostly TypeScript, Python, and lately Rust.
+<img src="assets/header.gif" width="100%" alt="Hey, I'm Red. An animated introduction with orbiting lights and a typing cursor." />
 
-[website](https://www.reydian.tech) · [projects](https://github.com/bombocl4TTTT?tab=repositories)
+<br />
 
-<details open>
-<summary>what I've been making</summary>
+**Curiosity first. Code follows.**
 
-- **Kasya-Pa** — a jeepney route finder for Bacolod. [Try it](https://kasya-pa.vercel.app).
-- **RedX** — an experimental language for typed workflows, written in Rust.
-- **Backend experiments** — webhook retries, a double-entry ledger, search, and workspace permissions.
-- **bwtrack** — per-application bandwidth history for Linux.
+I turn ideas into apps, automate the repetitive stuff,<br />
+and enjoy figuring out how things work underneath.
 
-</details>
+<br />
+
+<a href="https://www.reydian.tech"><img src="assets/website.svg" height="38" alt="Visit my website" /></a>
+&nbsp;&nbsp;
+<a href="https://github.com/bombocl4TTTT?tab=repositories"><img src="assets/repositories.svg" height="38" alt="Explore my repositories" /></a>
+
+<br /><br />
+
+<img src="assets/divider.svg" width="720" alt="" />
+
+<br />
+
+### Things I gravitate toward
+
+**AI & automation** &nbsp; / &nbsp; **Web & mobile** &nbsp; / &nbsp; **Developer tools**
+
+Small experiments. Useful software. A good reason to learn something new.
+
+<br />
+
+<img src="assets/toolbox.svg" width="680" alt="TypeScript, React, Python, Rust, and Linux" />
+
+<br /><br />
 
 <details>
-<summary>what I like working on</summary>
+<summary><b>Behind the keyboard</b></summary>
 
-Maps, automation, developer tools, and the parts of an app that have to keep working when something goes wrong.
+<br />
+
+Call me **Red** — Reydian if we're being formal.
+
+I'm interested in the whole path from an idea to something people can use:<br />
+the interface, the logic, and the systems keeping it running.
+
+Always learning. Usually building something.
 
 </details>
 
-Breaking things professionally. Fixing them personally.
+<br />
+
+<img src="assets/divider.svg" width="720" alt="" />
+
+<br />
+
+<sub>Breaking things professionally. Fixing them personally.</sub>
+
+</div>
