@@ -1,58 +1,53 @@
-<div align="center">
+<div align="left">
 
-<img src="assets/header.gif" width="100%" alt="Hey, I'm Red. An animated introduction with orbiting lights and a typing cursor." />
+<img src="assets/header.svg" width="100%" alt="Reydian Delagao - Full-Stack &amp; Systems Engineer" />
 
-<br />
+<br/>
 
-**Curiosity first. Code follows.**
+**Reydian Delagao** (Red) · Systems & Full-Stack Engineer based in Bacolod, Philippines.  
+Building reliable web platforms, low-level tooling, and typed agent execution runtimes.
 
-I turn ideas into apps, automate the repetitive stuff,<br />
-and enjoy figuring out how things work underneath.
+[Website](https://www.reydian.tech) &nbsp;•&nbsp; [Kasya-Pa (Live)](https://kasya-pa.vercel.app) &nbsp;•&nbsp; [Projects](https://github.com/bombocl4TTTT?tab=repositories) &nbsp;•&nbsp; [Email](mailto:reydian04@gmail.com)
 
-<br />
+</div>
 
-<a href="https://www.reydian.tech"><img src="assets/website.svg" height="38" alt="Visit my website" /></a>
-&nbsp;&nbsp;
-<a href="https://github.com/bombocl4TTTT?tab=repositories"><img src="assets/repositories.svg" height="38" alt="Explore my repositories" /></a>
+---
 
-<br /><br />
+### What I'm Building
 
-<img src="assets/divider.svg" width="720" alt="" />
+I'm drawn to software that remains reliable when things get chaotic—from tracing kernel sockets in Linux and enforcing idempotency in financial ledgers, to establishing deterministic boundaries for AI workflows.
 
-<br />
+- **[Kasya-Pa](https://kasya-pa.vercel.app)** — Community-first public transit route finder and interactive map for Bacolod City commuters. [Live App ↗](https://kasya-pa.vercel.app)
+- **[RedX](https://github.com/bombocl4TTTT/redx)** — Experimental programming language for typed agent workflows written in Rust. Features a custom lexer, parser, type checker, intermediate representation, and virtual machine to make side-effects, tools, and approval checkpoints explicit.
+- **[bwtrack](https://github.com/bombocl4TTTT/bwtrack)** — Linux per-application network bandwidth recorder powered by eBPF kernel probes, SQLite historical persistence, and a terminal UI (Ratatui).
+- **Backend Architecture Demos** — Focused implementations of distributed systems patterns:
+  - **Hookbase**: High-reliability webhook dispatcher with exponential backoff, cryptographic signatures, and dead-letter queues.
+  - **Ledgerly**: Double-entry bookkeeping engine exploring concurrency control, balance locks, and idempotent transaction mutations.
+  - **CompanySearch**: Hybrid knowledge retrieval engine evaluating lexical BM25 token matching alongside dense vector similarity.
+  - **Workspaces**: Multi-tenant RBAC permissions, invitation lifecycle, seat limits, and audit trails.
 
-### Things I gravitate toward
+---
 
-**AI & automation** &nbsp; / &nbsp; **Web & mobile** &nbsp; / &nbsp; **Developer tools**
+### Technical Focus
 
-Small experiments. Useful software. A good reason to learn something new.
+| Domain | Core Technologies & Patterns |
+| :--- | :--- |
+| **Languages** | Rust, TypeScript, JavaScript, Python, Go, SQL, Bash |
+| **Systems & Kernel** | Linux, eBPF (Aya), SQLite, Terminal UIs (Ratatui), Concurrency |
+| **Backend & Reliability** | Node.js, Next.js, PostgreSQL, Redis, Idempotency, Webhook Pipelines, Event Queues |
+| **Frontend & GIS** | React, Next.js, Tailwind CSS, MapLibre GL, Leaflet, Responsive UI |
+| **AI & Workflow Runtimes** | Deterministic agent boundaries, Multi-agent orchestration, Tool evaluation |
 
-<br />
+---
 
-<img src="assets/toolbox.svg" width="680" alt="TypeScript, React, Python, Rust, and Linux" />
+### Engineering Principles
 
-<br /><br />
+- **Observability Over Guesswork** — Systems should expose their internal state clearly, whether via eBPF kernel probes or structured audit trails.
+- **Explicit Failure Boundaries** — In agentic systems, side effects, tool invocations, and approvals belong in typed, verifiable contracts rather than implicit prompt logic.
+- **Solving Concrete Problems** — From local public transit routing to dependable webhook dispatching, code should deliver tangible utility.
 
-<details>
-<summary><b>Behind the keyboard</b></summary>
+---
 
-<br />
-
-Call me **Red** — Reydian if we're being formal.
-
-I'm interested in the whole path from an idea to something people can use:<br />
-the interface, the logic, and the systems keeping it running.
-
-Always learning. Usually building something.
-
-</details>
-
-<br />
-
-<img src="assets/divider.svg" width="720" alt="" />
-
-<br />
-
-<sub>Breaking things professionally. Fixing them personally.</sub>
-
+<div align="left">
+  <sub>Reydian A. Delagao &nbsp;•&nbsp; <a href="https://www.reydian.tech">reydian.tech</a> &nbsp;•&nbsp; <a href="mailto:reydian04@gmail.com">reydian04@gmail.com</a></sub>
 </div>
